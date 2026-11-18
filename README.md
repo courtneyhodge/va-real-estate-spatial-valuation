@@ -1,6 +1,6 @@
 # Virginia Residential Real Estate: Spatial Valuation & Deal Sourcing Engine
 
-**By Courtney Hodge** | [Launch Live Interactive Deal Map](https://courtneyhodge.github.io/va-real-estate-spatial-valuation/virginia_real_estate_valuation_map (2).html)
+**By Courtney Hodge** | [Launch Live Interactive Deal Map](https://courtneyhodge.github.io/va-real-estate-spatial-valuation/virginia_real_estate_valuation_map.html)
 
 An end-to-end automated valuation and spatial analytics pipeline analyzing 23,435 geocoded residential properties across Virginia. This project leverages gradient-boosted decision trees (LightGBM) to evaluate intrinsic property value, quantify submarket premiums, and isolate mispriced assets for acquisition analysis.
 
