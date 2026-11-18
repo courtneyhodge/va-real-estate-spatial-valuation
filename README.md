@@ -20,7 +20,9 @@ This project addresses two core business objectives:
 
 ## 2. Dataset & Methodology
 
-* **Source Data:** Filtered and deduplicated slice of Realtor.com residential sales across the Commonwealth of Virginia (23,435 valid single-family listings).
+* **Source Data:** Filtered and deduplicated slice of Realtor.com residential listings across the Commonwealth of Virginia (23,435 valid single-family listings), sourced from the [USA Real Estate Dataset on Kaggle](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset) (`realtor-data.csv`, ~178.86 MB).
+  * *Reproduce via Kaggle API:* `kaggle datasets download -d ahmedshahriarsakib/usa-real-estate-dataset`
+  * *Quick Start:* A pre-processed, geocoded Virginia subset is included directly in this repository at `data/cleaned_va_real_estate.csv`.
 * **Data Cleaning & Scoping:**
   * Deduplicated multi-scrape listings on physical address, lot size, and price.
   * Screened outlier anomalies (restricted to single-family homes: 1–10 beds, 1–10 baths, 400–15,000 sq ft, $50k–$5M list price).
